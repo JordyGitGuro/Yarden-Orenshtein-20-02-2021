@@ -1,0 +1,72 @@
+{
+    "data": {
+        "name": "John Doe",
+        "companyName": "herelo",
+        "phoneNumber": "054-4495866",
+        "email": "email@herelo.com"
+    },
+    "negativeData":[ {
+            "name": "",
+            "companyName": "herelo",
+            "phoneNumber": "054-4495866",
+            "email": "email@herelo.com",
+            "error": "שדה שם הוא שדה חובה"
+        },
+        {
+            "name": "John Doe",
+            "companyName": "",
+            "phoneNumber": "054-4495866",
+            "email": "email@herelo.com",
+            "error": "שדה חברה הוא שדה חובה"
+        },
+        {        
+            "name": "John Doe",
+            "companyName": "Herelo",
+            "phoneNumber": "",
+            "email": "email@herelo.com",
+            "error": "שדה טלפון הוא שדה חובה"        
+        },
+        {
+            "name": "John Doe",
+            "companyName": "Herelo",
+            "phoneNumber": "054-4495866",
+            "email": "",
+            "error": "שדה אימייל הוא שדה חובה" 
+        },
+        {
+            "name": "John Doe",
+            "companyName": "herelo",
+            "phoneNumber": "054-449586",
+            "email": "email@herelo.com",
+            "error": "מספר טלפון לא חוקי"
+        },
+        {
+            "name": "John Doe",
+            "companyName": "herelo",
+            "phoneNumber": "054-44958633",
+            "email": "email@herelo.com",
+            "error": "מספר טלפון לא חוקי" 
+        },
+        {
+            "name": "John Doe",
+            "companyName": "herelo",
+            "phoneNumber": "04-44958633",
+            "email": "email@herelo.com",
+            "error": "מספר טלפון לא חוקי" 
+        },
+        {
+            "name": "John Doe",
+            "companyName": "herelo",
+            "phoneNumber": "04-449533",
+            "email": "email@herelo.com",
+            "error": "מספר טלפון לא חוקי" 
+        },
+        {
+            "name": "John Doe",
+            "companyName": "herelo",
+            "phoneNumber": "054-4495863",
+            "email": "@herelo.com",
+            "error": "כתובת אימייל לא חוקית"
+        }
+    ]
+}
